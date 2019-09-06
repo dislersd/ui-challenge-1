@@ -157,11 +157,15 @@ h5 {
 
 /* header */
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
 header nav {
-  display: inline-block;
-  width: 691px;
-  vertical-align: top;
-  margin-top: 35px;
+  display: flex;
 }
 
 header nav a {
@@ -183,19 +187,21 @@ header nav a:last-child {
   margin-right: 0;
 }
 
-header .logo {
-  margin-top: 25px;
-}
-
 /* cta */
 
+.cta {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .cta .cta-text {
-  display: inline-block;
   vertical-align: top;
   font-size: 77px;
-  margin-top: 120px;
   text-align: center;
-  padding: 0px 75px;
+  padding: 5px;
+  margin-top: 40px;
 }
 
 .cta .cta-text button {
@@ -214,8 +220,7 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
-  margin-top: 69px;
+    height: 340px;
 }
 
 .main-content {
@@ -226,12 +231,12 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-content .top-content .text-content {
-  width: 410px;
-  display: inline-block;
-  margin-right: 34px;
+  width: 40%;
 }
 
 .main-content .top-content .text-content:last-child {
@@ -243,14 +248,13 @@ header .logo {
 }
 
 .main-content .bottom-content {
-  margin-top: 37px;
-  padding: 0 10px;
+  justify-content: space-between;
+  margin-top: 40px;
+  display: flex;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
-  margin-right: 12px;
 }
 
 .main-content .bottom-content .text-content:last-child {
